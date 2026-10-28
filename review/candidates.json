@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T03:51:22+00:00",
+  "generatedAt": "2026-10-28T11:05:25+00:00",
   "candidates": [
     {
       "id": "candidate-86fc16e38fe5",
@@ -12,6 +12,21 @@
       "score": 7,
       "reasons": [
         "包含有效关键词：征稿",
+        "标题包含当前年份",
+        "来源域名在可信清单中"
+      ],
+      "reviewStatus": "待人工核验"
+    },
+    {
+      "id": "candidate-25ca13631030",
+      "title": "2026清华“科创杯”创业大赛启动",
+      "sourceName": "清华大学",
+      "sourceHome": "https://www.tsinghua.edu.cn",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82WFIyNFM5ZklzVFZNSmFDMjhfTzNSTUxYQTF2S1duM1ZKX0dFdDRlNll4Y3EwQkROWWZPQ0kwUV94aEZvU1lDSDBUN2tNLUVEMjhRSElmam56Nmpa?oc=5",
+      "publishedAt": "Fri, 24 Apr 2026 07:00:00 GMT",
+      "query": "2026 全国大学生 经管 竞赛 报名",
+      "score": 5,
+      "reasons": [
         "标题包含当前年份",
         "来源域名在可信清单中"
       ],
@@ -44,36 +59,6 @@
       "reasons": [
         "标题包含当前年份",
         "来源域名在可信清单中"
-      ],
-      "reviewStatus": "待人工核验"
-    },
-    {
-      "id": "candidate-c0a50da5215e",
-      "title": "2026年第五届大学生普通话大赛报名通知",
-      "sourceName": "中华网",
-      "sourceHome": "https://hea.china.com",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KNTdJUDlPQldvMDl5Q1BLcEw0dHBtWW9vM3pSalpaSnBTSmZkQlRzTm1VdkRWNVhaMmhZYzVfVVRWbjhrbjhGd0Jzdm9xeDVua0JRZ3JKVXZpVFJlaEtES09va3lLNW1Mc2JDNw?oc=5",
-      "publishedAt": "Tue, 08 Sep 2026 07:00:00 GMT",
-      "query": "2026 全国大学生 经管 竞赛 报名",
-      "score": 4,
-      "reasons": [
-        "包含有效关键词：报名",
-        "标题包含当前年份"
-      ],
-      "reviewStatus": "待人工核验"
-    },
-    {
-      "id": "candidate-c27dc043d0fb",
-      "title": "【线下 | 邀请函】复旦-安永2026全国大学生绿色金融大赛报名开启",
-      "sourceName": "新浪财经",
-      "sourceHome": "https://finance.sina.com.cn",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96eTVmM0N4bVh2blhLajZjVTNmV09jY01sbldBa19CYzU4cnRTOTNEQzhPb3RaZWlrSVBlTmtsSk51NWpqdUtCN1locy1HMzIwbTQ2YnYtTUJmU28yVXJNQldkTjcwUElyZy1XSTJZV3FvRjY5MHc?oc=5",
-      "publishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
-      "query": "2026 全国大学生 经管 竞赛 报名",
-      "score": 4,
-      "reasons": [
-        "包含有效关键词：报名",
-        "标题包含当前年份"
       ],
       "reviewStatus": "待人工核验"
     },
@@ -174,20 +159,6 @@
       "score": 3,
       "reasons": [
         "来源域名在可信清单中"
-      ],
-      "reviewStatus": "待人工核验"
-    },
-    {
-      "id": "candidate-65cd856cbe98",
-      "title": "关于举办第十八届“中国电机工程学会杯” 全国大学生电工数学建模竞赛的通知",
-      "sourceName": "电力头条",
-      "sourceHome": "https://chinapower.org.cn",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE05SUQ3NkV1b01lbUp5Mjc0ekxMRXp0aFhvM0hrNlZSWlVHNW5zeTRVcl83ajVETndDQ19JWUh1SDAzTWFrUjRuTWxjVE0ySlFvVGg2Ty1ZVQ?oc=5",
-      "publishedAt": "Fri, 10 Apr 2026 07:00:00 GMT",
-      "query": "2026 全国大学生 经管 竞赛 报名",
-      "score": 2,
-      "reasons": [
-        "包含有效关键词：竞赛"
       ],
       "reviewStatus": "待人工核验"
     }

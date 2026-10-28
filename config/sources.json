@@ -1,0 +1,40 @@
+{
+  "queries": [
+    "2026 全国大学生 经管 竞赛 报名",
+    "2026 全国大学生 金融 会计 商业 竞赛",
+    "2026 经济 管理 学术论坛 征文",
+    "2026 会计 金融 管理 研讨会 征稿"
+  ],
+  "trusted_domains": [
+    ".edu.cn",
+    ".gov.cn",
+    "eastmoney.com",
+    "cfainstitute.org",
+    "asc.org.cn",
+    "asc.net.cn",
+    "china-cssc.org",
+    "mathorcup.org"
+  ],
+  "negative_keywords": [
+    "圆满收官",
+    "获奖名单",
+    "获奖喜报",
+    "活动回顾",
+    "成功举办",
+    "教授做客",
+    "博士后",
+    "仅限博士",
+    "博士生论坛"
+  ],
+  "positive_keywords": [
+    "报名",
+    "征文",
+    "征稿",
+    "竞赛",
+    "挑战赛",
+    "研讨会",
+    "学术论坛",
+    "call for papers"
+  ],
+  "max_candidates": 40
+}

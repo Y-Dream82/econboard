@@ -16,8 +16,6 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    env:
-      NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
 
     steps:
       - name: 获取仓库
@@ -34,7 +32,7 @@ jobs:
       - name: 校验 data.js
         run: |
           node --check data.js
-          node -e "global.window={};require('./data.js');const d=window.ECONBOARD_DATA;if(!Array.isArray(d.entries)||!d.entries.length)process.exit(1);console.log('entries:',d.entries.length)"
+          node -e "global.window={};require('./data.js');const d=window.ECONBOARD_DATA;if(!Array.isArray(d.entries)||!d.entries.length){process.exit(1)};console.log('entries:',d.entries.length)"
 
       - name: 提交周更结果
         run: |
@@ -47,7 +45,3 @@ jobs:
           git add data.js review/candidates.json review/weekly-report.md
           git commit -m "chore: weekly EconBoard update"
           git push
-
-      - name: 可选触发 Netlify 部署
-        if: ${{ env.NETLIFY_BUILD_HOOK != '' }}
-        run: curl --fail --silent --show-error -X POST "$NETLIFY_BUILD_HOOK"
